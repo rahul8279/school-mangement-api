@@ -1,7 +1,7 @@
 import SchoolModel from "../model/school.model.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { calculateDistance } from "../utils/calculateDistance.js";
-import {errorHandler} from "../utils/errorHandler.js";
+import {errorHandler} from "../utils/errorhandler.js"
 
 
 export const addSchool = asyncHandler(async (req, res) => {
