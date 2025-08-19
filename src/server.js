@@ -13,7 +13,7 @@ app.use(cors({
     origin: "*",
     credentials: true
 }))
-const PORT = process.env.MYSQLPORT 
+const PORT = process.env.PORT  
 
 app.use("/api/schools", schoolRoutes);
 
