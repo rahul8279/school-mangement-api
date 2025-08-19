@@ -1,6 +1,18 @@
 # School API
 
 A RESTful API for managing and querying schools, built with Node.js, Express, and MySQL.
+## 🔗 Live 
+<a href="http://school-mangement-api-production-e0a5.up.railway.app" target="_blank" rel="noopener noreferrer">
+  Click here to live
+</a>
+
+
+## POSTMAN
+
+<a href="https://web.postman.co/workspace/037761ce-d031-4924-8a55-a339a9861bb1/collection/42946758-a45d35fc-f63c-4724-83b3-2e35d5f2be77?action=share&source=copy-link&creator=42946758" target="_blank" rel="noopener noreferrer">
+  Click here watch postman 
+</a>
+
 
 ## Features
 
