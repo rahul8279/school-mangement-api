@@ -13,16 +13,11 @@ app.use(cors({
     origin: "*",
     credentials: true
 }))
-const PORT = process.env.PORT || 3000 
-
-app.get("/", (req, res) => {
-    res.status(200).json({ message: "Server is up and running!" });
-});
+const PORT = process.env.MYSQLPORT 
 
 app.use("/api/schools", schoolRoutes);
 
-// FIX 2: Add '0.0.0.0' to the listen method
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
     connectDB()
     console.log(`Server is running on port ${PORT}`);
 })
